@@ -57,4 +57,4 @@ const main = () => {
 main()
 
 //const h1 = document.getElementById("titulo")
-//h1.innerText = ""
+//h1.innerText = "Empate"
