@@ -52,9 +52,31 @@ const main = () => {
     board = createBoard(3, 3) 
     renderizarBoard(board)
 
+    
+    setValue(board, 1, 1, {
+        seMuestra : false,
+        letra : "O"
+    })
+    
+    setValue(board, 2, 1, {
+        seMuestra : false,
+        letra : "O"
+    })
+    
+    setValue(board, 1, 0, {
+        seMuestra : false,
+        letra : "O"
+    })
+
+    setValue(board, 1, 2, {
+        seMuestra : false,
+        letra : "O"
+    })
+
+    renderizarBoard(board)
 }
 
 main()
 
 //const h1 = document.getElementById("titulo")
-//h1.innerText = "Empate"
+//h1.innerText = ""
